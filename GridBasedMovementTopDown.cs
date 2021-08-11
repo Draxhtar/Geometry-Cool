@@ -4,7 +4,7 @@ using DG.Tweening;
 //***ATTENTION: You need to have DOTWEEN setup in your project for this script to work.***
 //You don't need any other components.
 
-//This script doesn't do a check for blocks and doesn't include rotating. For that, use the identical movement script in Geometry Cool.
+//This script doesn't do a check for blocks and doesn't include rotating. For that, use the identical movement script in Geometry Cool(not uploaded yet, coming soon).
 
 public class GridBasedMovementTopDown : MonoBehaviour
 {
