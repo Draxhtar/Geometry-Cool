@@ -9,6 +9,7 @@ using DG.Tweening;
 public class GridBasedMovementTopDown : MonoBehaviour
 {
     [SerializeField] int oneUnitLength = 1;
+    
     [Header("Game Feel Values")]
     [TooltipAttribute("How much time takes for player to move once")]
     [SerializeField] float m_moveTime = 0.1f;
