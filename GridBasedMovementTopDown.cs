@@ -1,8 +1,8 @@
 using UnityEngine;
 using DG.Tweening;
 
-//ATTENTION: You need to have DOTWEEN for this script to work.
-//You don't need any other components for this to work.
+//***ATTENTION: You need to have DOTWEEN setup in your project for this script to work.***
+//You don't need any other components.
 
 //This script doesn't do a check for blocks and doesn't include rotating. For that, use the identical movement script in Geometry Cool.
 
