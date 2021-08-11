@@ -8,6 +8,7 @@ using DG.Tweening;
 
 public class GridBasedMovementTopDown : MonoBehaviour
 {
+    [SerializeField] int oneUnitLength = 1;
     [Header("Game Feel Values")]
     [TooltipAttribute("How much time takes for player to move once")]
     [SerializeField] float m_moveTime = 0.1f;
@@ -58,7 +59,7 @@ public class GridBasedMovementTopDown : MonoBehaviour
 
         if (isMovingValid)
         {
-            transform.DOMoveX(transform.position.x + (-1), m_moveTime);
+            transform.DOMoveX(transform.position.x + (-oneUnitLength), m_moveTime);
             PlayMoveSound();
         }
     }
@@ -72,7 +73,7 @@ public class GridBasedMovementTopDown : MonoBehaviour
 
         if (isMovingValid)
         {
-            transform.DOMoveX(transform.position.x + (+1), m_moveTime);
+            transform.DOMoveX(transform.position.x + (+oneUnitLength), m_moveTime);
             PlayMoveSound();
         }
     }
@@ -86,7 +87,7 @@ public class GridBasedMovementTopDown : MonoBehaviour
 
         if (isMovingValid)
         {
-            transform.DOMoveY(transform.position.y + (1), m_moveTime);
+            transform.DOMoveY(transform.position.y + (oneUnitLength), m_moveTime);
             PlayMoveSound();
         }
     }
@@ -100,7 +101,7 @@ public class GridBasedMovementTopDown : MonoBehaviour
 
         if (isMovingValid)
         {
-            transform.DOMoveY(transform.position.y + (-1), m_moveTime);
+            transform.DOMoveY(transform.position.y + (-oneUnitLength), m_moveTime);
             PlayMoveSound();
         }
     }
