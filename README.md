@@ -5,5 +5,5 @@ Source code release for the "geometry cool" game.
 
 **Game's Source Code**: https://github.com/Draxhtar/Geometry-Cool/tree/main/Scripts
 
-### How does the movement work?
+## How does the movement work?
 Input detection + Tweening.
